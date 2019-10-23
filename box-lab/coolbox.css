@@ -1,0 +1,28 @@
+html {
+  font-family: sans-serif;
+}
+
+/* Your CSS below here */
+
+html {
+	font-size: 10px;
+}
+
+p {
+  width: 200px;
+  height: 60px;
+  font-size: 1.8rem; /* font size 10px, so 18px would be 1.8rem */
+  text-align: center;
+  line-height: 3em;
+  padding: 5px;
+  color: #ae40d6;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px black;
+  border-radius: 10px;
+  border: 1px solid #782c94;
+  background: linear-gradient(to left top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+  background-color: #ae40d6;
+  box-shadow: 2px 2px 4px #2a282b,
+    inset 2px 2px 2px rgba(255,255,255,0.5),
+    inset -3px -3px 3px rgba(0,0,0,0.5);
+}

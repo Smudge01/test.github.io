@@ -1,0 +1,54 @@
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: "Zhi Mang Xing", sans-serif; /* this should be the rest of the output you got from Google fonts */
+  background-color: #97bcf7;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+}
+
+p, li {
+  font-family: "Rubix";
+  font-size: 20px;    
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+a {
+	font-size: 2rem;
+}
+
+body {
+  width: 600px;
+  margin: 3px auto;
+  background-color: #9da1a6;
+  padding: 10px 10px 10px 10px;
+  border: 3px solid black;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+  height: auto;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;    
+  color: #2a09e6;
+  text-shadow: 3px 3px 4px #efedf7;
+}
+
+div	{
+	padding-top: 5px;
+}
+
+button {
+	color: blue;
+	background-color: #e7e6ed;
+	border-radius: 6px;
+}

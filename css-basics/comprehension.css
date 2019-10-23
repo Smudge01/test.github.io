@@ -1,0 +1,71 @@
+.section {
+	border: 3px solid gray;
+	background-color: rgba(216, 218, 242, 0.5);
+}
+
+h1 {
+	font-family: "Pacifico";
+	font-size: 3rem;
+	color: #792dd6;
+}
+
+h2 {
+	font-family: "Pacifico";
+	font-size: 2rem;
+	color: #792dd6;
+}
+
+.job-title {
+	font-family: "Pacifico";
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+p, ul {
+	font-family: "Indie Flower";
+	font-size: 18px;
+}
+
+div + p {
+	text-indent: 15px;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 1rem;
+}
+
+.email {
+  padding-left: 1.5rem;
+  background-image: url(at-solid.svg);
+  background-position: 0 0;
+  background-size: 1rem 1rem;
+  background-repeat: no-repeat;
+}
+
+.tel {
+  padding-left: 1.5rem;
+  background-image: url(phone-alt-solid.svg);
+  background-position: 0 0;
+  background-size: 1rem 1rem;
+  background-repeat: no-repeat;
+}
+
+.website {
+  padding-left: 1.5rem;
+  background-image: url(globe-solid.svg);
+  background-position: 0 0;
+  background-size: 1rem 1rem;
+  background-repeat: no-repeat;
+}
+
+a {
+	color: #1695f0;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: none;
+	text-shadow: 3px 3px 4px #6d6e78;
+}
+

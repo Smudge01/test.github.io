@@ -1,0 +1,50 @@
+h1 {
+	color: red;
+}
+
+p {
+	color: blue;
+}
+
+li {
+	list-style-type: square;
+	color: purple;
+	border: solid 2px blue;
+	width: 20%;
+}
+
+.special {
+	color: orange;
+	font-weight: bold;
+}
+
+li em {
+	color: #11ad3b;
+}
+
+h1 + p {
+	font-size: 150%
+}
+
+p span {
+	color: red;
+}
+
+a:link {
+	color: #d665bf;
+}
+
+a:visited {
+	color: #8c8f3d;
+}
+
+a:hover {
+	text-decoration: none;
+	text-shadow: 4px 4px 4px gray;
+}
+
+body h1 + p .special {
+  color: white;
+  background-color: black;
+  padding: 3px;
+}
