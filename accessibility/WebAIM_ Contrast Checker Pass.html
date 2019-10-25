@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<!-- saved from url=(0073)https://webaim.org/resources/contrastchecker/?fcolor=2A2A2A&bcolor=FFFFFF -->
+<html lang="en"><link type="text/css" id="dark-mode" rel="stylesheet" href="https://webaim.org/resources/contrastchecker/?fcolor=2A2A2A&amp;bcolor=FFFFFF"><style type="text/css" id="dark-mode-custom-style"></style><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WebAIM: Contrast Checker</title>
+	<link rel="shortcut icon" href="https://webaim.org/media/favicon.ico">
+	<link rel="home" href="https://webaim.org/">
+	<link rel="search" href="https://webaim.org/search/">
+	<link rel="alternate" href="https://webaim.org/blog/feed" type="application/rss+xml" title="WebAIM Blog">
+	
+	<link href="./WebAIM_ Contrast Checker Pass_files/main.css" rel="stylesheet">
+	<link href="./WebAIM_ Contrast Checker Pass_files/print.css" rel="stylesheet" type="text/css" media="print">
+	<script type="text/javascript" async="" src="./WebAIM_ Contrast Checker Pass_files/ga.js.download"></script><script src="./WebAIM_ Contrast Checker Pass_files/jquery.js.download"></script>
+	<script src="./WebAIM_ Contrast Checker Pass_files/main.js.download"></script>
+	<link href="./WebAIM_ Contrast Checker Pass_files/css" rel="stylesheet" type="text/css">
+	<link href="./WebAIM_ Contrast Checker Pass_files/css(1)" rel="stylesheet" type="text/css">
+	<link href="./WebAIM_ Contrast Checker Pass_files/documents.css" rel="stylesheet">
+		<link href="./WebAIM_ Contrast Checker Pass_files/css(2)" rel="stylesheet">
+<link rel="stylesheet" href="./WebAIM_ Contrast Checker Pass_files/contrast.css">
+		<script src="./WebAIM_ Contrast Checker Pass_files/contrast.js.download"></script>
+		<script>
+			function initialize() {
+				f = '#2A2A2A', b = '#FFFFFF';
+				update();
+			}
+		</script>
+	
+<!--[if lt IE 9]>
+	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style type="text/css"></style><style type="text/css">.markerjs-logo {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+
+    fill: #333333;
+}
+
+.markerjs-logo a {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 3px;
+    width: 20px;
+    height: 20px;
+}
+
+.markerjs-logo a:hover {
+    fill: #ff8080;
+}
+
+.markerjs-toolbar {
+    background-color: #cccccc;
+    padding: 0px 5px;
+    margin: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    display: grid;
+    grid-template-columns: repeat(20, auto);
+}
+
+
+.markerjs-toolbar-button, .markerjs-toolbar-logo a {
+    display: inline-block;
+    margin: 2px;
+    padding: 3px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    border-bottom: transparent solid 1px;
+    border-right: transparent solid 1px;
+
+
+    fill: #333333;
+
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.markerjs-toolbar-separator {
+    margin: 5px 5px;
+    border: 1px solid #dddddd;
+}
+
+.markerjs-toolbar-button:hover, .markerjs-toolbar-logo a:hover {
+    background-color: #eeeeee;
+    background: radial-gradient(#eeeeee, #cccccc);
+
+    fill: #ff8080;
+}
+
+.markerjs-toolbar-button svg {
+    height: 16px;
+}
+
+.markerjs-text-editor {
+    position: fixed;
+    z-index: 20000;
+    left: 0px;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.9);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.markerjs-text-editor textarea {
+    width: 50%;
+    min-width: 50px;
+    max-width: 500px;
+    height: 50%;
+    min-height: 50px;
+    max-height: 500px;
+}
+
+.markerjs-text-editor .markerjs-text-editor-button-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50%;
+    min-width: 50px;
+    max-width: 500px;
+    padding-top: 10px;
+}
+.markerjs-text-editor .markerjs-text-editor-button {
+    display: grid;
+    align-items: center;
+    padding: 0px;
+    margin-left: 15px;
+    height: 20px;
+
+    cursor: pointer;
+
+    fill: #888888;
+}
+.markerjs-text-editor .markerjs-text-editor-button:hover {
+    fill: #ff8080;
+}</style><script data-avast-pam="y" type="text/javascript" name="AVAST_PAM_submitInjector">(function _submitInjector() {
+        var f = document.querySelectorAll("form")[0]; // eslint-disable-line no-undef
+        if (!f._avast_submit) {
+          f._avast_submit = f.submit;
+        }
+        try {
+          Object.defineProperty(f, "submit", {
+            get: function get() {
+              return function (prev_submit) {
+                prev_submit.call(this);
+
+                if (this._avast_inside_submit) {
+                  return;
+                }
+                this._avast_inside_submit = true;
+
+                var evt = document.createEvent("CustomEvent");
+                evt.initEvent("scriptsubmit", true, true); // bubbling & cancelable
+                this.dispatchEvent(evt);
+
+                delete this._avast_inside_submit;
+              }.bind(this, this._avast_submit);
+            },
+            set: function set(submitFunc) {
+              this._avast_submit = submitFunc;
+            }
+          });
+        } catch (ex) {
+          // ignored
+        }
+      })();</script><script data-avast-pam="y" type="text/javascript" name="AVAST_PAM_submitInjector">(function _submitInjector() {
+        var f = document.querySelectorAll("form")[1]; // eslint-disable-line no-undef
+        if (!f._avast_submit) {
+          f._avast_submit = f.submit;
+        }
+        try {
+          Object.defineProperty(f, "submit", {
+            get: function get() {
+              return function (prev_submit) {
+                prev_submit.call(this);
+
+                if (this._avast_inside_submit) {
+                  return;
+                }
+                this._avast_inside_submit = true;
+
+                var evt = document.createEvent("CustomEvent");
+                evt.initEvent("scriptsubmit", true, true); // bubbling & cancelable
+                this.dispatchEvent(evt);
+
+                delete this._avast_inside_submit;
+              }.bind(this, this._avast_submit);
+            },
+            set: function set(submitFunc) {
+              this._avast_submit = submitFunc;
+            }
+          });
+        } catch (ex) {
+          // ignored
+        }
+      })();</script><script data-avast-pam="y" type="text/javascript" name="AVAST_PAM_submitInjector">(function _submitInjector() {
+        var f = document.querySelectorAll("form")[2]; // eslint-disable-line no-undef
+        if (!f._avast_submit) {
+          f._avast_submit = f.submit;
+        }
+        try {
+          Object.defineProperty(f, "submit", {
+            get: function get() {
+              return function (prev_submit) {
+                prev_submit.call(this);
+
+                if (this._avast_inside_submit) {
+                  return;
+                }
+                this._avast_inside_submit = true;
+
+                var evt = document.createEvent("CustomEvent");
+                evt.initEvent("scriptsubmit", true, true); // bubbling & cancelable
+                this.dispatchEvent(evt);
+
+                delete this._avast_inside_submit;
+              }.bind(this, this._avast_submit);
+            },
+            set: function set(submitFunc) {
+              this._avast_submit = submitFunc;
+            }
+          });
+        } catch (ex) {
+          // ignored
+        }
+      })();</script><script data-avast-pam="y" type="text/javascript" name="AVAST_PAM_submitInjector">(function _submitInjector() {
+        var f = document.querySelectorAll("form")[1]; // eslint-disable-line no-undef
+        if (!f._avast_submit) {
+          f._avast_submit = f.submit;
+        }
+        try {
+          Object.defineProperty(f, "submit", {
+            get: function get() {
+              return function (prev_submit) {
+                prev_submit.call(this);
+
+                if (this._avast_inside_submit) {
+                  return;
+                }
+                this._avast_inside_submit = true;
+
+                var evt = document.createEvent("CustomEvent");
+                evt.initEvent("scriptsubmit", true, true); // bubbling & cancelable
+                this.dispatchEvent(evt);
+
+                delete this._avast_inside_submit;
+              }.bind(this, this._avast_submit);
+            },
+            set: function set(submitFunc) {
+              this._avast_submit = submitFunc;
+            }
+          });
+        } catch (ex) {
+          // ignored
+        }
+      })();</script></head>
+<body>
+<div id="headcontainer" class="clearfix" style="background-image: url(/media/banners/resources.jpg)">
+<header>
+	<div id="skiptocontent"><a href="https://webaim.org/resources/contrastchecker/?fcolor=2A2A2A&amp;bcolor=FFFFFF#maincontent">skip to main content</a></div>
+	
+	<h2><a href="https://webaim.org/"><img src="./WebAIM_ Contrast Checker Pass_files/logo.png" width="302" height="80" alt="WebAIM - Web Accessibility In Mind"></a></h2>
+
+	<nav>
+		<h2 class="hidden">Main Navigation</h2>
+		<ul>
+			<li><a href="https://webaim.org/services/">Services</a></li>
+			<li><a href="https://webaim.org/articles/">Articles</a></li>
+			<li class="current"><a href="https://webaim.org/resources/">Resources</a></li>
+			<li><a href="https://webaim.org/community/">Community</a></li>
+		</ul>
+	</nav>
+	<div id="search">
+		<form method="get" role="search" action="https://webaim.org/search/" id="sitesearch">
+			<p class="search"><span><label for="q">Search:</label> <input type="text" name="q" id="q"><input type="image" src="./WebAIM_ Contrast Checker Pass_files/search.png" alt="Submit Search"></span></p>
+		</form>
+		
+		<p class="intro"><a href="https://webaim.org/intro">Introduction to Web Accessibility</a></p>
+		
+		<p class="training"><a href="https://webaim.org/training">WebAIM Training</a></p>
+	</div>
+
+</header>
+</div>
+
+<main id="maincontainer" class="clearfix">
+
+<article id="maincontent">
+
+<h1>Contrast Checker</h1>
+
+<p id="breadcrumbs"><span class="hidden">You are here: </span><a href="https://webaim.org/">Home</a> &gt; <a href="https://webaim.org/resources/">Resources</a> &gt; Contrast Checker</p>
+
+<div class="section">
+	<noscript>
+		<p><strong>This tool requires Javascript.</strong></p>
+	</noscript>
+	<form id="contrastForm" class="AVAST_PAM_nonloginform">
+		<fieldset>
+			<legend>Foreground Color</legend>
+			<p class="error" id="fError">Please enter a valid <a href="http://en.wikipedia.org/wiki/Web_colors#Hex_triplet">hex triplet</a>, or use the color picker.</p>
+			<label for="fHex" class="hidden">Hex</label>
+			<input id="fHex" type="text" maxlength="7" required="">
+			<label for="fPick" class="hidden">color picker</label>
+			<input id="fPick" type="color">
+			<div>
+				<label for="fLightness">Lightness</label>
+				<input id="fLightness" type="range" min="0" max="100" step="1">
+				<div class="gradient" style="background: linear-gradient(to right, rgb(0, 0, 0), rgb(128, 128, 128), rgb(255, 255, 255));"></div>
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>Background Color</legend>
+			<p class="error" id="bError">Please enter a valid <a href="http://en.wikipedia.org/wiki/Web_colors#Hex_triplet">hex triplet</a>, or use the color picker.</p>
+			<label for="bHex" class="hidden">Hex</label>
+			<input id="bHex" type="text" maxlength="7" required="">
+			<label for="bPick" class="hidden">color picker</label>
+			<input id="bPick" type="color">
+			<div>
+				<label for="bLightness">Lightness</label>
+				<input id="bLightness" type="range" min="0" max="100" step="1">
+				<div class="gradient" style="background: linear-gradient(to right, rgb(0, 0, 0), rgb(128, 128, 128), rgb(255, 255, 255));"></div>
+			</div>
+		</fieldset>
+	</form>
+	<div id="ratioContainer" class="pass">
+		<span>
+			Contrast Ratio
+			<span id="ratio" aria-live="polite" aria-atomic="false"><b>14.35</b>:1</span>
+		</span>
+		<a id="permalink" class="permalink" href="https://webaim.org/resources/contrastchecker/?fcolor=2A2A2A&amp;bcolor=FFFFFF">permalink</a>
+	</div>
+	<h2>Normal Text</h2>
+	<div class="results">
+		<p>WCAG AA: <span id="normalAA" class="pass">Pass</span></p>
+		<p>WCAG AAA: <span id="normalAAA" class="pass">Pass</span></p>
+	</div>
+	<span id="normal" style="color: rgb(42, 42, 42); background-color: rgb(255, 255, 255);">The five boxing wizards jump quickly.</span>
+	<h2>Large Text</h2>
+	<div class="results">
+		<p>WCAG AA: <span id="bigAA" class="pass">Pass</span></p>
+		<p>WCAG AAA: <span id="bigAAA" class="pass">Pass</span></p>
+	</div>
+	<span id="big" style="color: rgb(42, 42, 42); background-color: rgb(255, 255, 255);">The five boxing wizards jump quickly.</span>
+	<h2>Graphical Objects and User Interface Components</h2>
+	<div class="results">
+		<p>WCAG AA: &nbsp;<span id="uiAA" class="pass">Pass</span></p>
+	</div>
+	<span id="ui" style="color: rgb(42, 42, 42); background-color: rgb(255, 255, 255);">
+	<svg width="19.21315" height="18.294994" id="svg2" sodipodi:version="0.32" inkscape:version="0.45" sodipodi:modified="true" version="1.0">
+  <defs id="defs4"></defs>
+  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" gridtolerance="10000" guidetolerance="10" objecttolerance="10" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="7.9195959" inkscape:cx="17.757032" inkscape:cy="7.298821" inkscape:document-units="px" inkscape:current-layer="layer1" inkscape:window-width="984" inkscape:window-height="852" inkscape:window-x="148" inkscape:window-y="66"></sodipodi:namedview>
+  <metadata id="metadata7">
+    <rdf:rdf>
+      <cc:work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+      </cc:work>
+    </rdf:rdf>
+  </metadata>
+  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(-192.905,-516.02064)">
+    <path style="fill: rgb(42, 42, 42);" d="M 197.67968,534.31563 C 197.40468,534.31208 196.21788,532.53719 195.04234,530.37143 L 192.905,526.43368 L 193.45901,525.87968 C 193.76371,525.57497 194.58269,525.32567 195.27896,525.32567 L 196.5449,525.32567 L 197.18129,527.33076 L 197.81768,529.33584 L 202.88215,523.79451 C 205.66761,520.74678 208.88522,517.75085 210.03239,517.13691 L 212.11815,516.02064 L 207.90871,520.80282 C 205.59351,523.43302 202.45735,527.55085 200.93947,529.95355 C 199.42159,532.35625 197.95468,534.31919 197.67968,534.31563 z " id="path2223"></path>
+  </g>
+</svg><br>
+
+	<input type="text" id="uibox" value="Text Input" style="border-color: rgb(42, 42, 42);"> 
+
+	</span>
+	
+	<h2>Explanation</h2>
+	<p>Enter a foreground and background color in RGB hexadecimal format (e.g., #FD3 or #F7DA39) or choose a color using the color picker. The Lightness slider can be used to adjust the selected color.</p>
+	<p>WCAG 2.0 level AA requires a contrast ratio of at least 4.5:1 for normal text and 3:1 for large text. WCAG 2.1 requires a contrast ratio of at least 3:1 for graphics and user interface components (such as form input borders). WCAG Level AAA requires a contrast ratio of at least 7:1 for normal text and 4.5:1 for large text.</p>
+	<p>Large text is defined as 14 point (typically 18.66px) and bold or larger, or 18 point (typically 24px) or larger.</p>
+	<p><strong>Hint:</strong> <a href="http://www.colorzilla.com/firefox/">Colorzilla</a> is an excellent tool for extracting the color value from any page element. Additionally, <a href="http://wave.webaim.org/">WAVE</a> can analyze contrast ratios for all page text elements at once.</p>
+	<p>Use <a href="https://webaim.org/resources/linkcontrastchecker/?fcolor=2A2A2A&amp;bcolor=FFFFFF">our link contrast checker</a> to evaluate links that are identified using color alone.</p>
+	
+	<div class="note">
+		<div class="title">New!</div>
+		<p>This tool also functions as a basic API. Simply append <code>&amp;api</code> to any <a class="permalink" href="https://webaim.org/resources/contrastchecker/?fcolor=2A2A2A&amp;bcolor=FFFFFF">permalink</a> to get a JSON object with the contrast ratio and the AA/AAA pass/fail states. For example: <a class="apilink" href="https://webaim.org/resources/contrastchecker/?fcolor=2A2A2A&amp;bcolor=FFFFFF&amp;api">https://webaim.org/resources/contrastchecker/?fcolor=2A2A2A&amp;bcolor=FFFFFF&amp;api</a>.</p>
+	</div>
+	
+</div>
+
+</article>
+<aside id="articlemeta">
+
+	
+		
+				<div id="related">
+			<h2>Related Resources</h2>
+			<ul>
+			<li><a href="https://webaim.org/articles/contrast/">Contrast and Color Accessibility</a></li>
+<li><a href="https://webaim.org/resources/evalquickref/">Quick Reference: Testing Web Content for Accessibility</a></li>
+<li><a href="https://webaim.org/resources/designers/">Web Accessibility for Designers</a></li>
+<li><a href="https://webaim.org/resources/linkcontrastchecker/?fcolor=2A2A2A&amp;bcolor=FFFFFF">Link Contrast Checker</a></li>
+			</ul>
+		</div>
+		
+</aside>
+</main>
+
+<footer>
+	<div id="footerresources">
+		<div class="footerblock">
+			<p id="copyright"><span class="hidden">© </span>2019 WebAIM</p>
+			<p id="contact">Center for Persons with Disabilities<br>
+			Utah State University<br>
+			6807 Old Main Hill<br>
+			Logan, UT 84322-6807<br>
+			<a class="phone" href="tel:4357977024">435.797.7024</a></p>
+		</div>
+		<div class="footerblock">
+			<h2 id="blog">From the Blog</h2>
+			<ul><li><a href="https://webaim.org/blog/screen-reader-survey8-results/">Screen Reader User Survey #8 Results</a></li><li><a href="https://webaim.org/blog/web-accessibility-among-nonprofits/">Web Accessibility Among Nonprofits</a></li><li><a href="https://webaim.org/blog/alexa-100-update-2/">Alexa 100 Accessibility Update #2</a></li><li><a href="https://webaim.org/blog/webaim-million/">The WebAIM Million: What we learned analyzing 1,000,000 web site home pages</a></li></ul>		</div>
+		<div class="footerblock">
+			<h2 id="popular">Popular Resources</h2>
+			<ul>
+				<li><a href="https://webaim.org/training/">WebAIM Training</a></li>
+				<li><a href="https://webaim.org/standards/wcag/checklist">WCAG 2 Checklist</a></li>
+				<li><a href="https://webaim.org/standards/508/checklist">Section 508 Checklist</a></li>
+				<li><a href="https://webaim.org/resources/contrastchecker">Color Contrast Checker</a></li>
+				<li><a href="https://webaim.org/resources/designers/">Web Accessibility for Designers</a></li>
+				<li><a href="http://wave.webaim.org/">WAVE Web Accessibility Evaluation Tool</a></li>
+			</ul>
+		</div>
+		
+		<div class="footerblock" id="checkpage">
+						<h2>Check Your Accessibility</h2>
+			<form action="https://wave.webaim.org/report" novalidate="">
+				<label for="waveurl" class="hidden">Web site address</label>
+				<input type="url" id="waveurl" name="url" placeholder="Web site address" title="Web site address">
+				<input type="submit" value="WAVE">
+			</form>
+					</div>
+		
+		<div id="footerlinks">
+			<ul>
+				<li><a id="footercontact" href="https://webaim.org/contact">Contact Us</a></li>
+				<li><a id="footerabout" href="https://webaim.org/about">About</a></li>
+				<li><a id="footerrss" href="https://webaim.org/community/rss">RSS Feeds</a></li>
+				<li><a id="footertwit" href="http://twitter.com/webaim">Twitter</a></li>
+				<li><a id="footercopyright" href="https://webaim.org/copyright">Copyright &amp; Terms of Use</a></li>
+			</ul>
+		</div>
+		
+		<div class="clear"></div>
+	</div>
+
+</footer>
+
+<script>
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-302059-1']);
+	_gaq.push(['_trackPageview']);
+	
+	(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+
+
+<flying-focus id="flying-focus" style="transition-duration: 0.1s;"></flying-focus></body></html>
